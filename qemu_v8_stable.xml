@@ -11,7 +11,6 @@
   <project name="arm-trusted-firmware.git" path="arm-trusted-firmware" remote="linaro-swg" revision="bdadbc6fc1109110181a417c6aaf6723aa62dc09"/>
   <project name="build.git" path="build" revision="refs/tags/2.5.0">
     <linkfile dest="build/Makefile" src="qemu_v8.mk"/>
-    <linkfile dest="build/gdb" src="../toolchains/aarch64/bin/aarch64-linux-gnu-gdb"/>
   </project>
   <project name="busybox.git" path="busybox" remote="busybox" revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02"/>
   <project name="code" path="strace" remote="sfnet" revision="735c2ad872047e5d66c28eab2dc1aae31aac96ab"/>
